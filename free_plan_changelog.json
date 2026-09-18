@@ -1,0 +1,20 @@
+{
+  "name": "Digital Signage Free Plan Changelog 2026",
+  "publisher": "DigitalSignage.com (MediaSignage Inc.)",
+  "license": "CC BY 4.0",
+  "page": "https://digitalsignage.com/digital_signage/docs/guides/free-plan-changelog-2026/",
+  "method": "Each entry records what a vendor's own pricing or plans page said on the date it was read. Entries are appended, never rewritten, so the log shows what was true on any date.",
+  "updated": "2026-09-18",
+  "entries": [
+    { "date_observed": "2026-09-18", "vendor": "ChannelOS", "change": "Verified: 1 screen free forever, no watermark, never flips to paid when more screens are added; paid screens $5 to $6 per screen per month, volume tiers after 25 screens. First entry.", "free_plan_after": "1 screen, forever, no watermark", "source": "https://channelos.tv/pricing" },
+    { "date_observed": "2026-09-18", "vendor": "ScreenTinker", "change": "Verified: MIT-licensed open-source server (self-host free, unlimited) plus a managed cloud with a free plan (1 display) and a 14-day Pro trial, no credit card. First entry.", "free_plan_after": "Self-hosted unlimited; managed cloud 1 display", "source": "https://www.screentinker.com/" },
+    { "date_observed": "2026-09-18", "vendor": "DigitalSignage.com", "change": "Re-verified, unchanged: first 3 screens free forever, no credit card, no ads, no watermark, 1 GB storage, about 90% of features; then $3 per screen per month (Plus+) or the one-time $895 mediaSERVER.", "free_plan_after": "3 screens, forever, no ads, no watermark", "source": "https://digitalsignage.com/_html/pricing.html" },
+    { "date_observed": "2026-09-17", "vendor": "PosterBooking", "change": "Homepage description now reads 'Free Digital Signage Software for three months, start free with 10 screens, no credit card required'. Through summer 2026 the site advertised up to 10 free screens with a note that the offer may change. Paid rates still not published.", "free_plan_after": "10 screens, described as free for three months", "source": "https://www.posterbooking.com/" },
+    { "date_observed": "2026-09-16", "vendor": "OptiSigns", "change": "Re-verified, unchanged: 3 screens free with OptiSigns branding shown on screen; $10 Standard to $30 Engage per screen per month.", "free_plan_after": "3 screens with vendor branding", "source": "https://www.optisigns.com/pricing" },
+    { "date_observed": "2026-09-16", "vendor": "PiSignage", "change": "Re-verified, unchanged: 2 screens free; annual license after, about $1.67 per screen per month; players for Raspberry Pi and, per the vendor, Android TV and the Amazon Signage Stick.", "free_plan_after": "2 screens", "source": "https://pisignage.com/pricing" },
+    { "date_observed": "2026-09-16", "vendor": "ScreenCloud", "change": "Re-verified, unchanged: no permanent free tier, trial only; from $20 per screen per month (Core).", "free_plan_after": "None (trial only)", "source": "https://screencloud.com/pricing" },
+    { "date_observed": "2026-09-16", "vendor": "Xibo", "change": "Re-verified, unchanged: free open-source server, unlimited screens when self-hosted; Android, webOS and Tizen players are paid licenses; Xibo Cloud is paid.", "free_plan_after": "Unlimited, self-hosted", "source": "https://xibosignage.com/" },
+    { "date_observed": "2026-09-16", "vendor": "Anthias (Screenly OSE)", "change": "Re-verified, unchanged: free, one Raspberry Pi per screen, each managed on its own, no central cloud.", "free_plan_after": "Unlimited, one Raspberry Pi each", "source": "https://github.com/Screenly/Anthias" },
+    { "date_observed": "2026-03-02", "vendor": "Yodeck", "change": "Free plan ended for new accounts: new sign-ups get a 30-day trial of up to 5 screens instead of 1 free screen. Existing accounts keep the free tier only while they have exactly 1 screen. Paid from $8 Basic, $12 Premium, $16 Enterprise per screen per month.", "free_plan_after": "None for new accounts (30-day trial)", "source": "https://www.yodeck.com/pricing/" }
+  ]
+}
