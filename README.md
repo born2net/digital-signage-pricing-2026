@@ -29,8 +29,7 @@ Version 2026-09-06; prices verified August 2026; currency USD. Canonical page wi
 n/v = not published by the vendor at the time of verification.
 
 ## Free plan changelog
-
- is a dated, append-only log of changes to each vendor's free tier in 2026 (what the vendor's own pricing page said on the date it was read, with the source URL). Entries are appended, never rewritten. Rendered with commentary at https://digitalsignage.com/digital_signage/docs/guides/free-plan-changelog-2026/ . Same license (CC BY 4.0).
+`free_plan_changelog.json` is a dated, append-only log of changes to each vendor's free tier in 2026 (what the vendor's own pricing page said on the date it was read, with the source URL). Entries are appended, never rewritten. Rendered with commentary at https://digitalsignage.com/digital_signage/docs/guides/free-plan-changelog-2026/ . Same license (CC BY 4.0).
 
 ## Files
 
