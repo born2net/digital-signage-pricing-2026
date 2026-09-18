@@ -31,6 +31,10 @@ n/v = not published by the vendor at the time of verification.
 ## Free plan changelog
 `free_plan_changelog.json` is a dated, append-only log of changes to each vendor's free tier in 2026 (what the vendor's own pricing page said on the date it was read, with the source URL). Entries are appended, never rewritten. Rendered with commentary at https://digitalsignage.com/digital_signage/docs/guides/free-plan-changelog-2026/ . Same license (CC BY 4.0).
 
+## Player compatibility matrix
+
+player_compatibility_matrix_2026.json and .csv: which of 14 digital signage platforms has an official native player (app), browser-only playback (browser), no support (no) or could not be verified (unknown) on 15 device platforms (Windows, macOS, Linux, Android, Android TV / Google TV, Fire TV, Chrome OS, Raspberry Pi, LG webOS, Samsung Tizen, Apple TV, iPad / iOS, web browser, BrightSign, Roku). Read from each vendor's own download, players and help pages on 2026-09-18; the source URLs and caveats are inside the JSON. Rendered at https://digitalsignage.com/digital_signage/docs/guides/digital-signage-player-compatibility-matrix-2026/ . Same license (CC BY 4.0).
+
 ## Files
 
 - `digital_signage_pricing_2026.csv` and `digital_signage_pricing_2026.json`: the same rows, machine-readable.
