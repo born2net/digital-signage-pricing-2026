@@ -1,11 +1,12 @@
 vendor,free_plan,entry_paid_rate_usd,entry_tier_name,top_published_tier,billing_unit,on_premise_option,hosting,player_platforms,source_url,notes,verified,dataset_version
-"DigitalSignage.com","3 screens, forever, ad-free (1GB storage)","3","mediaCLOUD Plus+","Enterprise: dynamic, public calculator","per screen per month (dynamic volume pricing)","$895 one-time mediaSERVER (+ per-player licenses)","Cloud or self-hosted","Windows, Mac, Android, Chrome OS, Raspberry Pi, iPad, browser","https://digitalsignage.com/_html/pricing.html","Enterprise adds proof of play, white-label, kiosk/touch, IoT, POS; priced by the public calculator","August 2026","2026-09-06"
-"Yodeck","1 screen (only while the account has exactly 1 screen); new accounts since Mar 2, 2026 get a 30-day trial of up to 5 screens","8","Basic","$16 Enterprise ($12 Premium)","per screen per month","n/v","Cloud","See vendor","https://www.yodeck.com/pricing/","Prices raised Apr 1, 2026","August 2026","2026-09-06"
-"OptiSigns","3 screens, with OptiSigns branding","10","Standard","$30 Engage","per screen per month","n/v","Cloud","See vendor","https://www.optisigns.com/pricing","Limited storage on the free plan","August 2026","2026-09-06"
-"ScreenCloud","None permanent (trial only)","20","Core","Quote","from $20 per month","n/v","Cloud","See vendor","https://screencloud.com/pricing","","August 2026","2026-09-06"
-"NoviSign","n/v","18","List","about $20","per screen per month (about $18–20)","n/v","Cloud","See vendor","https://www.novisign.com/pricing/","Price page blocks some automated fetches; verified manually","August 2026","2026-09-06"
-"Rise Vision","n/v","11","List (education focus)","n/v","per display per month (about $11 list)","n/v","Cloud","See vendor","https://www.risevision.com/pricing","Education discounts advertised","August 2026","2026-09-06"
-"PiSignage","2 screens","1.67","Annual license, monthly equivalent","n/v","about $1.67 per screen per month","n/v","Cloud (Raspberry Pi players only)","Raspberry Pi only","https://pisignage.com/pricing","No Windows, Android or Chrome OS players","August 2026","2026-09-06"
-"PosterBooking","Up to 10 screens (vendor states the offer may change)","","n/v","n/v","n/v","n/v","Cloud","See vendor","https://www.posterbooking.com/","","August 2026","2026-09-06"
-"Xibo (open source)","No cap, self-hosted (Xibo Cloud is paid)","0","Self-hosted server","Paid player licenses for Android, webOS, Tizen (n/v)","free server; paid commercial players","Yes (the product is self-hosted)","Your own server","Windows/Linux players free; commercial players licensed","https://xibosignage.com/","You install, host, update and secure the server","August 2026","2026-09-06"
-"Anthias (Screenly OSE)","No cap, self-hosted, per Raspberry Pi","0","Free, open source","Screenly commercial product is separate (n/v)","free","Yes (runs on each Pi)","Each Pi managed on its own","Raspberry Pi","https://github.com/Screenly/Anthias","No central cloud dashboard","August 2026","2026-09-06"
+DigitalSignage.com,,,,,,,Cloud or self-hosted,,,,,
+Yodeck,,,,,,,Cloud,,,,,
+OptiSigns,,,,,,,Cloud,,,,,
+ScreenCloud,,,,,,,Cloud,,,,,
+NoviSign,,,,,,,Cloud,,,,,
+Rise Vision,,,,,,,Cloud,,,,,
+PiSignage,,,,,,,Cloud (Raspberry Pi players only),,,,,
+ChannelOS,,,,,,,Cloud,,,,,
+PosterBooking,,,,,,,Cloud,,,,,
+Xibo (open source),,,,,,,Your own server,,,,,
+Anthias (Screenly OSE),,,,,,,Each Pi managed on its own,,,,,
