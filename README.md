@@ -35,10 +35,15 @@ n/v = not published by the vendor at the time of verification.
 
 player_compatibility_matrix_2026.json and .csv: which of 14 digital signage platforms has an official native player (app), browser-only playback (browser), no support (no) or could not be verified (unknown) on 15 device platforms (Windows, macOS, Linux, Android, Android TV / Google TV, Fire TV, Chrome OS, Raspberry Pi, LG webOS, Samsung Tizen, Apple TV, iPad / iOS, web browser, BrightSign, Roku). Read from each vendor's own download, players and help pages on 2026-09-18; the source URLs and caveats are inside the JSON. Rendered at https://digitalsignage.com/digital_signage/docs/guides/digital-signage-player-compatibility-matrix-2026/ . Same license (CC BY 4.0).
 
+## Viewing distance and font size
+
+`viewing_distance_font_size_2026.json` and `.csv` hold the reference table behind the [typography and viewing distance guide](https://digitalsignage.com/digital_signage/docs/guides/typography-viewing-distance/): minimum body, headline and fine-print point sizes at 3 to 50 feet (1 to 15 m), the physical letter heights behind them (1 inch per 10 feet comfortable, 1 inch per 20 feet minimum), pixels per inch for 32 to 98 inch displays at 1080p and 4K, recommended sizes by application, WCAG contrast targets and dwell-time word limits. The formulas are in the JSON so a calculator can reproduce every row.
+
 ## Files
 
 - `digital_signage_pricing_2026.csv` and `digital_signage_pricing_2026.json`: the same rows, machine-readable.
 - Re-checked daily by an automated price watch and re-verified by hand monthly; corrections within 48 hours via the form on the canonical page.
+- `viewing_distance_font_size_2026.json` / `.csv` - viewing distance to font size reference with formulas
 
 ## Disclosure
 

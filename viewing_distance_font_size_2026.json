@@ -1,0 +1,225 @@
+{
+  "name": "Digital Signage Viewing Distance and Font Size Reference 2026",
+  "publisher": "DigitalSignage.com (MediaSignage Inc.)",
+  "license": "CC BY 4.0",
+  "page": "https://digitalsignage.com/digital_signage/docs/guides/typography-viewing-distance/",
+  "updated": "2026-09-19",
+  "method": "Point sizes are the values published on the DigitalSignage.com typography guide for a 1080p canvas. Minimum body text follows the line body_pt = 12 + 2.4 x viewing distance in feet (about 12 + 7.9 x metres); headline = 2 x body; fine print = body x 2/3. Physical letter heights follow the signage rule of thumb of 1 inch of letter height per 10 feet of viewing distance for comfortable reading and 1 inch per 20 feet as the minimum. PPI values are computed from the diagonal and native resolution and rounded.",
+  "formulas": {
+    "minimum_body_pt_from_feet": "12 + 2.4 * distance_ft",
+    "minimum_body_pt_from_metres": "12 + 7.9 * distance_m",
+    "headline_pt": "2 * body_pt",
+    "fine_print_pt": "body_pt * 2 / 3",
+    "comfortable_letter_height_in": "0.1 * distance_ft",
+    "minimum_letter_height_in": "0.05 * distance_ft",
+    "physical_text_height_in": "text_height_px / display_ppi"
+  },
+  "viewing_distance": [
+    {
+      "viewing_distance_ft": 3,
+      "viewing_distance_m": 1,
+      "min_body_text_pt": 18,
+      "headline_pt": 36,
+      "fine_print_pt": 12,
+      "comfortable_letter_height_in": 0.3,
+      "minimum_letter_height_in": 0.15,
+      "comfortable_letter_height_mm": 8,
+      "minimum_letter_height_mm": 4
+    },
+    {
+      "viewing_distance_ft": 6,
+      "viewing_distance_m": 2,
+      "min_body_text_pt": 24,
+      "headline_pt": 48,
+      "fine_print_pt": 16,
+      "comfortable_letter_height_in": 0.6,
+      "minimum_letter_height_in": 0.3,
+      "comfortable_letter_height_mm": 15,
+      "minimum_letter_height_mm": 8
+    },
+    {
+      "viewing_distance_ft": 10,
+      "viewing_distance_m": 3,
+      "min_body_text_pt": 36,
+      "headline_pt": 72,
+      "fine_print_pt": 24,
+      "comfortable_letter_height_in": 1,
+      "minimum_letter_height_in": 0.5,
+      "comfortable_letter_height_mm": 25,
+      "minimum_letter_height_mm": 13
+    },
+    {
+      "viewing_distance_ft": 15,
+      "viewing_distance_m": 5,
+      "min_body_text_pt": 48,
+      "headline_pt": 96,
+      "fine_print_pt": 32,
+      "comfortable_letter_height_in": 1.5,
+      "minimum_letter_height_in": 0.75,
+      "comfortable_letter_height_mm": 38,
+      "minimum_letter_height_mm": 19
+    },
+    {
+      "viewing_distance_ft": 20,
+      "viewing_distance_m": 6,
+      "min_body_text_pt": 60,
+      "headline_pt": 120,
+      "fine_print_pt": 40,
+      "comfortable_letter_height_in": 2,
+      "minimum_letter_height_in": 1,
+      "comfortable_letter_height_mm": 51,
+      "minimum_letter_height_mm": 25
+    },
+    {
+      "viewing_distance_ft": 30,
+      "viewing_distance_m": 9,
+      "min_body_text_pt": 84,
+      "headline_pt": 168,
+      "fine_print_pt": 56,
+      "comfortable_letter_height_in": 3,
+      "minimum_letter_height_in": 1.5,
+      "comfortable_letter_height_mm": 76,
+      "minimum_letter_height_mm": 38
+    },
+    {
+      "viewing_distance_ft": 50,
+      "viewing_distance_m": 15,
+      "min_body_text_pt": 132,
+      "headline_pt": 264,
+      "fine_print_pt": 88,
+      "comfortable_letter_height_in": 5,
+      "minimum_letter_height_in": 2.5,
+      "comfortable_letter_height_mm": 127,
+      "minimum_letter_height_mm": 64
+    }
+  ],
+  "display_ppi": [
+    {
+      "display_in": 32,
+      "ppi_1080p": 69,
+      "ppi_4k": 138,
+      "px_per_inch_of_text_1080p": 69,
+      "px_per_inch_of_text_4k": 138
+    },
+    {
+      "display_in": 43,
+      "ppi_1080p": 51,
+      "ppi_4k": 102,
+      "px_per_inch_of_text_1080p": 51,
+      "px_per_inch_of_text_4k": 102
+    },
+    {
+      "display_in": 55,
+      "ppi_1080p": 40,
+      "ppi_4k": 80,
+      "px_per_inch_of_text_1080p": 40,
+      "px_per_inch_of_text_4k": 80
+    },
+    {
+      "display_in": 65,
+      "ppi_1080p": 34,
+      "ppi_4k": 68,
+      "px_per_inch_of_text_1080p": 34,
+      "px_per_inch_of_text_4k": 68
+    },
+    {
+      "display_in": 75,
+      "ppi_1080p": 29,
+      "ppi_4k": 59,
+      "px_per_inch_of_text_1080p": 29,
+      "px_per_inch_of_text_4k": 59
+    },
+    {
+      "display_in": 86,
+      "ppi_1080p": 26,
+      "ppi_4k": 51,
+      "px_per_inch_of_text_1080p": 26,
+      "px_per_inch_of_text_4k": 51
+    },
+    {
+      "display_in": 98,
+      "ppi_1080p": 22,
+      "ppi_4k": 45,
+      "px_per_inch_of_text_1080p": 22,
+      "px_per_inch_of_text_4k": 45
+    }
+  ],
+  "sizes_by_application": [
+    {
+      "application": "Retail promo",
+      "primary_pt": "96+",
+      "secondary_pt": 48,
+      "body_pt": 36,
+      "note": "Prices prominent"
+    },
+    {
+      "application": "Menu board",
+      "primary_pt": 60,
+      "secondary_pt": 36,
+      "body_pt": 24,
+      "note": "Scannable layout"
+    },
+    {
+      "application": "Wayfinding",
+      "primary_pt": 72,
+      "secondary_pt": 48,
+      "body_pt": 30,
+      "note": "Arrows and icons large"
+    },
+    {
+      "application": "Corporate lobby",
+      "primary_pt": 48,
+      "secondary_pt": 36,
+      "body_pt": 24,
+      "note": "Elegant, refined"
+    },
+    {
+      "application": "Emergency alert",
+      "primary_pt": "120+",
+      "secondary_pt": 72,
+      "body_pt": 48,
+      "note": "Maximum visibility"
+    },
+    {
+      "application": "Video wall",
+      "primary_pt": "144+",
+      "secondary_pt": 96,
+      "body_pt": 72,
+      "note": "Scale for distance"
+    }
+  ],
+  "contrast": [
+    {
+      "content_type": "Body text",
+      "wcag_minimum": "4.5:1",
+      "recommended_for_signage": "7:1"
+    },
+    {
+      "content_type": "Large text (over 18pt)",
+      "wcag_minimum": "3:1",
+      "recommended_for_signage": "4.5:1"
+    },
+    {
+      "content_type": "Headlines",
+      "wcag_minimum": "3:1",
+      "recommended_for_signage": "7:1"
+    }
+  ],
+  "dwell_time": [
+    {
+      "context": "Passing viewers (corridor, street)",
+      "typical_dwell_time": "2 to 3 seconds",
+      "max_words": "7 to 10 words"
+    },
+    {
+      "context": "Retail floor, waiting area",
+      "typical_dwell_time": "3 to 5 seconds",
+      "max_words": "15 to 20 words"
+    },
+    {
+      "context": "Queue, lobby, break room",
+      "typical_dwell_time": "10 seconds or more",
+      "max_words": "up to 3 lines of 5 words per screen"
+    }
+  ]
+}
