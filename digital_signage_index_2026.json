@@ -1,0 +1,362 @@
+{
+  "name": "Digital Signage Pricing and Platform Index 2026",
+  "publisher": "DigitalSignage.com (MediaSignage Inc.)",
+  "license": "CC BY 4.0",
+  "updated": "2026-09-21",
+  "method": "Derived entirely from three open datasets this repository publishes: digital_signage_pricing_2026.json (published vendor rates), free_plan_changelog.json (dated, append-only record of free-tier changes) and player_compatibility_matrix_2026.json (native app support by platform), plus digital_signage_cost_per_screen_2026.json from the companion cost repository. Every figure below can be recomputed from those files. No estimates, no survey data.",
+  "disclosure": "MediaSignage Inc. operates DigitalSignage.com, which is one of the vendors measured.",
+  "vendors_tracked": {
+    "pricing": 11,
+    "compatibility_matrix": 14
+  },
+  "per_screen_rate": {
+    "note": "Published entry-tier list price per screen per month, hosted platforms that meter per screen. PosterBooking is excluded because it prices a 10-screen bundle at $52 per month rather than a per-screen meter; at its 10-screen bundle that is $5.20 per screen.",
+    "vendors": [
+      {
+        "vendor": "PiSignage",
+        "usd_per_screen_month": 1.67
+      },
+      {
+        "vendor": "DigitalSignage.com",
+        "usd_per_screen_month": 3
+      },
+      {
+        "vendor": "ChannelOS",
+        "usd_per_screen_month": 5
+      },
+      {
+        "vendor": "Yodeck",
+        "usd_per_screen_month": 8
+      },
+      {
+        "vendor": "OptiSigns",
+        "usd_per_screen_month": 10
+      },
+      {
+        "vendor": "Rise Vision",
+        "usd_per_screen_month": 11
+      },
+      {
+        "vendor": "NoviSign",
+        "usd_per_screen_month": 18
+      },
+      {
+        "vendor": "ScreenCloud",
+        "usd_per_screen_month": 20
+      }
+    ],
+    "lowest": 1.67,
+    "highest": 20,
+    "median": 9,
+    "spread_multiple": 12
+  },
+  "free_tiers": {
+    "permanent_hosted": [
+      {
+        "vendor": "DigitalSignage.com",
+        "screens": 3,
+        "caveat": "none: no ads, no watermark, no credit card"
+      },
+      {
+        "vendor": "OptiSigns",
+        "screens": 3,
+        "caveat": "OptiSigns branding shown on screen"
+      },
+      {
+        "vendor": "PiSignage",
+        "screens": 2,
+        "caveat": "Raspberry Pi players"
+      },
+      {
+        "vendor": "ChannelOS",
+        "screens": 1,
+        "caveat": "ChannelOS banner shown on screen"
+      }
+    ],
+    "time_limited": [
+      {
+        "vendor": "PosterBooking",
+        "screens": 10,
+        "caveat": "3-month trial, watermark on screens, new customers only"
+      },
+      {
+        "vendor": "Yodeck",
+        "screens": 5,
+        "caveat": "30-day trial for accounts created since 2026-03-02"
+      },
+      {
+        "vendor": "ScreenCloud",
+        "screens": null,
+        "caveat": "trial only, no permanent free tier"
+      }
+    ],
+    "self_hosted_unlimited": [
+      {
+        "vendor": "Xibo",
+        "caveat": "free open-source server; Android, webOS, Tizen and Chrome OS players are paid licences"
+      },
+      {
+        "vendor": "Anthias (Screenly OSE)",
+        "caveat": "one Raspberry Pi or x86 PC per screen, no central cloud"
+      }
+    ],
+    "not_published": [
+      "NoviSign",
+      "Rise Vision"
+    ]
+  },
+  "free_tier_direction_2026": {
+    "method": "Each entry in free_plan_changelog.json was read and classified by hand. Only changes to what a vendor offers are counted; re-verifications that found no change are excluded.",
+    "worsened": [
+      {
+        "date": "2026-03-02",
+        "vendor": "Yodeck",
+        "what": "permanent free screen replaced by a 30-day trial for new accounts"
+      },
+      {
+        "date": "2026-09-17",
+        "vendor": "PosterBooking",
+        "what": "the advertised 10 free screens documented as a 3-month trial with a watermark"
+      },
+      {
+        "date": "2026-09-19",
+        "vendor": "ChannelOS",
+        "what": "free screen confirmed to carry a ChannelOS banner"
+      }
+    ],
+    "improved": [],
+    "unchanged_on_reverification": [
+      "DigitalSignage.com",
+      "OptiSigns",
+      "PiSignage",
+      "ScreenCloud",
+      "Xibo",
+      "Anthias (Screenly OSE)"
+    ]
+  },
+  "year_one_50_screens": {
+    "note": "Software only, published list price, 12 months, free screens deducted where the vendor grants them.",
+    "vendors": [
+      {
+        "vendor": "Xibo (open source)",
+        "usd": 0
+      },
+      {
+        "vendor": "Anthias (Screenly OSE)",
+        "usd": 0
+      },
+      {
+        "vendor": "PiSignage",
+        "usd": 1680
+      },
+      {
+        "vendor": "DigitalSignage.com",
+        "usd": 1692
+      },
+      {
+        "vendor": "ChannelOS",
+        "usd": 2940
+      },
+      {
+        "vendor": "PosterBooking",
+        "usd": 3739
+      },
+      {
+        "vendor": "Yodeck",
+        "usd": 4800
+      },
+      {
+        "vendor": "OptiSigns",
+        "usd": 6000
+      },
+      {
+        "vendor": "Rise Vision",
+        "usd": 6600
+      },
+      {
+        "vendor": "NoviSign",
+        "usd": 10800
+      },
+      {
+        "vendor": "ScreenCloud",
+        "usd": 12000
+      }
+    ],
+    "cheapest_paid": {
+      "vendor": "PiSignage",
+      "usd": 1680
+    },
+    "dearest_paid": {
+      "vendor": "ScreenCloud",
+      "usd": 12000
+    },
+    "spread_multiple": 7.1
+  },
+  "platform_support": {
+    "note": "native_app means the vendor ships an installable player for that platform. browser_only means it runs in a browser on that platform but has no native app.",
+    "by_platform": [
+      {
+        "platform": "Android",
+        "native_app": 12,
+        "browser_only": 0,
+        "none": 2
+      },
+      {
+        "platform": "Android TV / Google TV",
+        "native_app": 12,
+        "browser_only": 0,
+        "none": 1
+      },
+      {
+        "platform": "Windows",
+        "native_app": 9,
+        "browser_only": 4,
+        "none": 1
+      },
+      {
+        "platform": "Raspberry Pi",
+        "native_app": 9,
+        "browser_only": 2,
+        "none": 2
+      },
+      {
+        "platform": "Fire TV",
+        "native_app": 9,
+        "browser_only": 1,
+        "none": 4
+      },
+      {
+        "platform": "Linux",
+        "native_app": 8,
+        "browser_only": 6,
+        "none": 0
+      },
+      {
+        "platform": "Chrome OS",
+        "native_app": 8,
+        "browser_only": 4,
+        "none": 2
+      },
+      {
+        "platform": "LG webOS",
+        "native_app": 7,
+        "browser_only": 3,
+        "none": 4
+      },
+      {
+        "platform": "Samsung Tizen",
+        "native_app": 6,
+        "browser_only": 1,
+        "none": 7
+      },
+      {
+        "platform": "BrightSign",
+        "native_app": 5,
+        "browser_only": 1,
+        "none": 8
+      },
+      {
+        "platform": "macOS",
+        "native_app": 4,
+        "browser_only": 8,
+        "none": 2
+      },
+      {
+        "platform": "iPad / iOS",
+        "native_app": 3,
+        "browser_only": 1,
+        "none": 10
+      },
+      {
+        "platform": "Apple TV",
+        "native_app": 2,
+        "browser_only": 0,
+        "none": 12
+      },
+      {
+        "platform": "Roku",
+        "native_app": 1,
+        "browser_only": 0,
+        "none": 13
+      },
+      {
+        "platform": "Web browser",
+        "native_app": 0,
+        "browser_only": 11,
+        "none": 3
+      }
+    ],
+    "by_vendor": [
+      {
+        "vendor": "OptiSigns",
+        "native_apps": 14,
+        "browser_only": 1
+      },
+      {
+        "vendor": "ScreenCloud",
+        "native_apps": 10,
+        "browser_only": 2
+      },
+      {
+        "vendor": "Yodeck",
+        "native_apps": 9,
+        "browser_only": 3
+      },
+      {
+        "vendor": "Rise Vision",
+        "native_apps": 9,
+        "browser_only": 2
+      },
+      {
+        "vendor": "DigitalSignage.com",
+        "native_apps": 8,
+        "browser_only": 1
+      },
+      {
+        "vendor": "NoviSign",
+        "native_apps": 8,
+        "browser_only": 3
+      },
+      {
+        "vendor": "PosterBooking",
+        "native_apps": 8,
+        "browser_only": 0
+      },
+      {
+        "vendor": "TelemetryTV",
+        "native_apps": 7,
+        "browser_only": 2
+      },
+      {
+        "vendor": "Xibo",
+        "native_apps": 6,
+        "browser_only": 0
+      },
+      {
+        "vendor": "PiSignage",
+        "native_apps": 5,
+        "browser_only": 4
+      },
+      {
+        "vendor": "Screenly",
+        "native_apps": 5,
+        "browser_only": 7
+      },
+      {
+        "vendor": "ScreenTinker",
+        "native_apps": 3,
+        "browser_only": 9
+      },
+      {
+        "vendor": "Anthias (Screenly OSE)",
+        "native_apps": 2,
+        "browser_only": 0
+      },
+      {
+        "vendor": "ChannelOS",
+        "native_apps": 1,
+        "browser_only": 8
+      }
+    ]
+  }
+}

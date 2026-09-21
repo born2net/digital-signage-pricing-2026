@@ -39,11 +39,16 @@ player_compatibility_matrix_2026.json and .csv: which of 14 digital signage plat
 
 `viewing_distance_font_size_2026.json` and `.csv` hold the reference table behind the [typography and viewing distance guide](https://digitalsignage.com/digital_signage/docs/guides/typography-viewing-distance/): minimum body, headline and fine-print point sizes at 3 to 50 feet (1 to 15 m), the physical letter heights behind them (1 inch per 10 feet comfortable, 1 inch per 20 feet minimum), pixels per inch for 32 to 98 inch displays at 1080p and 4K, recommended sizes by application, WCAG contrast targets and dwell-time word limits. The formulas are in the JSON so a calculator can reproduce every row.
 
+## The 2026 index
+
+`digital_signage_index_2026.json` is derived from the other files in this repository and recomputed whenever they change. It holds the distribution of published per-screen rates, the classification of every free tier into permanent, time-limited and self-hosted, the dated direction of travel for free tiers during 2026, year-one cost at 50 screens, and native player support by platform across 14 vendors. Every figure in it can be recomputed from the source files; none are estimates and no survey data is used. Page: https://digitalsignage.com/digital_signage/docs/guides/digital-signage-pricing-index-2026/
+
 ## Files
 
 - `digital_signage_pricing_2026.csv` and `digital_signage_pricing_2026.json`: the same rows, machine-readable.
 - Re-checked daily by an automated price watch and re-verified by hand monthly; corrections within 48 hours via the form on the canonical page.
 - `viewing_distance_font_size_2026.json` / `.csv` - viewing distance to font size reference with formulas
+- `digital_signage_index_2026.json` - derived index: rate distribution, free-tier classification, 2026 direction of travel, platform support
 
 ## Disclosure
 
