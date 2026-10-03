@@ -4,8 +4,28 @@
   "license": "CC BY 4.0",
   "page": "https://digitalsignage.com/digital_signage/docs/guides/free-plan-changelog-2026/",
   "method": "Each entry records what a vendor's own pricing or plans page said on the date it was read. Entries are appended, never rewritten, so the log shows what was true on any date.",
-  "updated": "2026-09-19",
+  "updated": "2026-09-28",
   "entries": [
+    {
+      "date_observed": "2026-09-28",
+      "vendor": "Yodeck",
+      "change": "Correction and re-verification. The pricing page still lists a Free plan ($0, single-screen licence). Yodeck's documentation on the 30-day free period (updated 2026-09-21) says the period is available to new sign-ups from 2026-03-02 and that an account that does not upgrade \"continues on the Free Plan with basic features\", with one screen active and the other four disabled. Our 2026-03-02 entry described this as the free plan ending for new accounts; the accurate description is a 30-day, 5-screen full-access period for new accounts followed by the 1-screen Free plan, kept only while the account has exactly one screen. Reclassified as a permanent free tier with conditions. Paid tiers $8 Basic, $12 Premium, $16 Enterprise confirmed.",
+      "free_plan_after": "1 screen, forever, Basic features, only while the account has exactly 1 screen; new accounts get a 30-day, 5-screen full-access period first",
+      "source": "https://www.yodeck.com/pricing/",
+      "sources": [
+        "https://www.yodeck.com/pricing/",
+        "https://www.yodeck.com/docs/user-manual/free-period/",
+        "https://www.yodeck.com/docs/user-manual/how-is-yodeck-priced/"
+      ],
+      "corrects": "2026-03-02"
+    },
+    {
+      "date_observed": "2026-09-28",
+      "vendor": "NoviSign",
+      "change": "First entry. No permanent free tier; a 30-day free trial. Plans: Business $14, Business Plus $17, Premium $25 per screen per month, billed annually (the page's monthly billing toggle shows no figure). The pricing dataset had carried about $18 to $20 for the entry rate; corrected to $14 on this date.",
+      "free_plan_after": "None (30-day trial)",
+      "source": "https://www.novisign.com/pricing/"
+    },
     {
       "date_observed": "2026-09-19",
       "vendor": "ChannelOS",

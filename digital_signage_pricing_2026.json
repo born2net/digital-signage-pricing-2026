@@ -2,8 +2,8 @@
   "name": "State of Digital Signage Pricing 2026",
   "publisher": "DigitalSignage.com (MediaSignage Inc.)",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "verified": "September 2026 (PosterBooking, ChannelOS, PiSignage, Xibo re-read 2026-09-19)",
-  "version": "2026-09-19",
+  "verified": "September 2026 (PosterBooking, ChannelOS, PiSignage, Xibo re-read 2026-09-19; Yodeck and NoviSign re-read 2026-09-28)",
+  "version": "2026-09-28",
   "currency": "USD",
   "note": "Published list prices only; n/v = not verified by us; monthly billing unless stated; hardware, taxes and negotiated discounts excluded.",
   "vendors": [
@@ -22,7 +22,7 @@
     },
     {
       "vendor": "Yodeck",
-      "free": "1 screen (only while the account has exactly 1 screen); new accounts since Mar 2, 2026 get a 30-day trial of up to 5 screens",
+      "free": "1 screen, forever, Basic features, only while the account has exactly 1 screen; new accounts since Mar 2, 2026 first get a 30-day full-access period on up to 5 screens, then continue on the 1-screen Free plan",
       "entry": 8,
       "entryName": "Basic",
       "top": "$16 Enterprise ($12 Premium)",
@@ -31,7 +31,8 @@
       "hosting": "Cloud",
       "platforms": "See vendor",
       "source": "https://www.yodeck.com/pricing/",
-      "note": "Prices raised Apr 1, 2026"
+      "note": "Prices raised Apr 1, 2026. Verified 2026-09-28: pricing page lists Free $0 single-screen licence; Yodeck docs (30-day free period, updated 2026-09-21) confirm the account continues on the Free Plan with basic features after the 30-day period. Sources: https://www.yodeck.com/pricing/ ; https://www.yodeck.com/docs/user-manual/free-period/",
+      "verified": "2026-09-28"
     },
     {
       "vendor": "OptiSigns",
@@ -61,16 +62,17 @@
     },
     {
       "vendor": "NoviSign",
-      "free": "n/v",
-      "entry": 18,
-      "entryName": "List",
-      "top": "about $20",
-      "unit": "per screen per month (about $18–20)",
+      "free": "None permanent (30-day free trial)",
+      "entry": 14,
+      "entryName": "Business (billed annually)",
+      "top": "$25 Premium ($17 Business Plus), billed annually",
+      "unit": "per screen per month, billed annually (annual toggle 'Save 10%'; no monthly-billing figure published)",
       "onprem": "n/v",
       "hosting": "Cloud",
       "platforms": "See vendor",
       "source": "https://www.novisign.com/pricing/",
-      "note": "Price page blocks some automated fetches; verified manually"
+      "note": "Verified 2026-09-28 from the vendor page: Business $14, Business Plus $17, Premium $25 per screen per month billed annually; earlier dataset figure of about $18 to $20 corrected. Price page blocks some automated fetches.",
+      "verified": "2026-09-28"
     },
     {
       "vendor": "Rise Vision",

@@ -2,9 +2,28 @@
   "name": "Digital Signage Pricing and Platform Index 2026",
   "publisher": "DigitalSignage.com (MediaSignage Inc.)",
   "license": "CC BY 4.0",
-  "updated": "2026-09-21",
+  "updated": "2026-09-29",
   "method": "Derived entirely from three open datasets this repository publishes: digital_signage_pricing_2026.json (published vendor rates), free_plan_changelog.json (dated, append-only record of free-tier changes) and player_compatibility_matrix_2026.json (native app support by platform), plus digital_signage_cost_per_screen_2026.json from the companion cost repository. Every figure below can be recomputed from those files. No estimates, no survey data.",
   "disclosure": "MediaSignage Inc. operates DigitalSignage.com, which is one of the vendors measured.",
+  "corrections": [
+    {
+      "date": "2026-09-28",
+      "what": "Yodeck reclassified from time_limited to permanent_hosted: its pricing page still lists a Free plan (single-screen licence) and its documentation says an account that does not upgrade continues on the Free Plan with basic features after the 30-day, 5-screen period that new accounts have received since 2026-03-02. Permanent hosted free tiers are therefore 5 of 11, not 4. NoviSign entry rate corrected from 18 to 14 (Business plan, billed annually; no monthly-billing figure published), which changes the mean from 9.58 to 9.08 and NoviSign's 50-screen year from 10800 to 8400; median and spread unchanged. free_tier_direction_2026 restated: no vendor expanded a free tier in 2026; PosterBooking time-boxed and watermarked its free screens; Yodeck restructured onboarding; the ChannelOS entry is a correction to this dataset's own record, not a vendor change.",
+      "sources": [
+        "https://www.yodeck.com/pricing/",
+        "https://www.yodeck.com/docs/user-manual/free-period/",
+        "https://www.yodeck.com/docs/user-manual/how-is-yodeck-priced/",
+        "https://www.novisign.com/pricing/"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "what": "DigitalSignage.com Linux reclassified from native app to browser in player_compatibility_matrix_2026.json (no native desktop Linux app today; Linux PCs use the web player in a browser). Linux native apps 8 to 7 of 14 (browser_only 6 to 7); DigitalSignage.com native apps 8 to 7 (browser_only 1 to 2).",
+      "sources": [
+        "https://digitalsignage.com/digital_signage/docs/guides/digital-signage-player-compatibility-matrix-2026/"
+      ]
+    }
+  ],
   "vendors_tracked": {
     "pricing": 11,
     "compatibility_matrix": 14
@@ -38,7 +57,7 @@
       },
       {
         "vendor": "NoviSign",
-        "usd_per_screen_month": 18
+        "usd_per_screen_month": 14
       },
       {
         "vendor": "ScreenCloud",
@@ -48,9 +67,16 @@
     "lowest": 1.67,
     "highest": 20,
     "median": 9,
+    "mean": 9.08,
     "spread_multiple": 12
   },
   "free_tiers": {
+    "counts": {
+      "permanent_hosted": 5,
+      "time_limited": 2,
+      "self_hosted_unlimited": 2,
+      "not_published": 2
+    },
     "permanent_hosted": [
       {
         "vendor": "DigitalSignage.com",
@@ -71,6 +97,11 @@
         "vendor": "ChannelOS",
         "screens": 1,
         "caveat": "ChannelOS banner shown on screen"
+      },
+      {
+        "vendor": "Yodeck",
+        "screens": 1,
+        "caveat": "Basic features; only while the account has exactly 1 screen; new accounts since 2026-03-02 start with a 30-day, 5-screen full-access period first (reclassified 2026-09-28)"
       }
     ],
     "time_limited": [
@@ -78,11 +109,6 @@
         "vendor": "PosterBooking",
         "screens": 10,
         "caveat": "3-month trial, watermark on screens, new customers only"
-      },
-      {
-        "vendor": "Yodeck",
-        "screens": 5,
-        "caveat": "30-day trial for accounts created since 2026-03-02"
       },
       {
         "vendor": "ScreenCloud",
@@ -106,22 +132,27 @@
     ]
   },
   "free_tier_direction_2026": {
-    "method": "Each entry in free_plan_changelog.json was read and classified by hand. Only changes to what a vendor offers are counted; re-verifications that found no change are excluded.",
+    "method": "Each entry in free_plan_changelog.json was read and classified by hand. Only changes to what a vendor offers are counted; re-verifications that found no change are excluded. Restated 2026-09-28: no vendor expanded a permanent free tier in 2026; one was time-boxed and watermarked (PosterBooking); one had its onboarding restructured with the single free screen retained (Yodeck); the ChannelOS entry corrects this dataset's own 2026-09-18 record rather than recording a vendor change.",
+    "expanded": [],
     "worsened": [
-      {
-        "date": "2026-03-02",
-        "vendor": "Yodeck",
-        "what": "permanent free screen replaced by a 30-day trial for new accounts"
-      },
       {
         "date": "2026-09-17",
         "vendor": "PosterBooking",
         "what": "the advertised 10 free screens documented as a 3-month trial with a watermark"
-      },
+      }
+    ],
+    "restructured": [
+      {
+        "date": "2026-03-02",
+        "vendor": "Yodeck",
+        "what": "new accounts start with a 30-day, 5-screen full-access period, after which one free screen (Basic features) remains while the account has exactly one screen; previously listed under worsened as \"permanent free screen replaced by a 30-day trial\", corrected 2026-09-28"
+      }
+    ],
+    "dataset_corrections": [
       {
         "date": "2026-09-19",
         "vendor": "ChannelOS",
-        "what": "free screen confirmed to carry a ChannelOS banner"
+        "what": "free screen recorded as carrying a ChannelOS banner (corrects our 2026-09-18 entry; not a vendor change)"
       }
     ],
     "improved": [],
@@ -175,7 +206,7 @@
       },
       {
         "vendor": "NoviSign",
-        "usd": 10800
+        "usd": 8400
       },
       {
         "vendor": "ScreenCloud",
@@ -226,16 +257,16 @@
         "none": 4
       },
       {
-        "platform": "Linux",
-        "native_app": 8,
-        "browser_only": 6,
-        "none": 0
-      },
-      {
         "platform": "Chrome OS",
         "native_app": 8,
         "browser_only": 4,
         "none": 2
+      },
+      {
+        "platform": "Linux",
+        "native_app": 7,
+        "browser_only": 7,
+        "none": 0
       },
       {
         "platform": "LG webOS",
@@ -308,11 +339,6 @@
         "browser_only": 2
       },
       {
-        "vendor": "DigitalSignage.com",
-        "native_apps": 8,
-        "browser_only": 1
-      },
-      {
         "vendor": "NoviSign",
         "native_apps": 8,
         "browser_only": 3
@@ -321,6 +347,11 @@
         "vendor": "PosterBooking",
         "native_apps": 8,
         "browser_only": 0
+      },
+      {
+        "vendor": "DigitalSignage.com",
+        "native_apps": 7,
+        "browser_only": 2
       },
       {
         "vendor": "TelemetryTV",
