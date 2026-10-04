@@ -2,10 +2,20 @@
   "name": "Digital Signage Pricing and Platform Index 2026",
   "publisher": "DigitalSignage.com (MediaSignage Inc.)",
   "license": "CC BY 4.0",
-  "updated": "2026-09-29",
+  "updated": "2026-10-04",
   "method": "Derived entirely from three open datasets this repository publishes: digital_signage_pricing_2026.json (published vendor rates), free_plan_changelog.json (dated, append-only record of free-tier changes) and player_compatibility_matrix_2026.json (native app support by platform), plus digital_signage_cost_per_screen_2026.json from the companion cost repository. Every figure below can be recomputed from those files. No estimates, no survey data.",
   "disclosure": "MediaSignage Inc. operates DigitalSignage.com, which is one of the vendors measured.",
   "corrections": [
+    {
+      "date": "2026-10-04",
+      "what": "Re-verification of all 11 pricing rows. OptiSigns top published tier recorded as Enterprise $45 per screen per month (minimum 25 screens) instead of Engage $30; ScreenCloud $20 Core noted as the annual-billing rate ($24 monthly); NoviSign monthly-billing figures added (Business $16, Business Plus $19, Premium $28); Rise Vision entry clarified as the K-12 Basic monthly rate ($12 for business). Entry rates, medians and free-tier counts are unchanged.",
+      "sources": [
+        "https://www.optisigns.com/pricing",
+        "https://screencloud.com/pricing",
+        "https://www.novisign.com/pricing/",
+        "https://www.risevision.com/pricing"
+      ]
+    },
     {
       "date": "2026-09-28",
       "what": "Yodeck reclassified from time_limited to permanent_hosted: its pricing page still lists a Free plan (single-screen licence) and its documentation says an account that does not upgrade continues on the Free Plan with basic features after the 30-day, 5-screen period that new accounts have received since 2026-03-02. Permanent hosted free tiers are therefore 5 of 11, not 4. NoviSign entry rate corrected from 18 to 14 (Business plan, billed annually; no monthly-billing figure published), which changes the mean from 9.58 to 9.08 and NoviSign's 50-screen year from 10800 to 8400; median and spread unchanged. free_tier_direction_2026 restated: no vendor expanded a free tier in 2026; PosterBooking time-boxed and watermarked its free screens; Yodeck restructured onboarding; the ChannelOS entry is a correction to this dataset's own record, not a vendor change.",

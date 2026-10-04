@@ -2,8 +2,8 @@
   "name": "State of Digital Signage Pricing 2026",
   "publisher": "DigitalSignage.com (MediaSignage Inc.)",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "verified": "September 2026 (PosterBooking, ChannelOS, PiSignage, Xibo re-read 2026-09-19; Yodeck and NoviSign re-read 2026-09-28)",
-  "version": "2026-09-28",
+  "verified": "October 2026 (all 11 vendors re-read 2026-10-04)",
+  "version": "2026-10-04",
   "currency": "USD",
   "note": "Published list prices only; n/v = not verified by us; monthly billing unless stated; hardware, taxes and negotiated discounts excluded.",
   "vendors": [
@@ -18,7 +18,8 @@
       "hosting": "Cloud or self-hosted",
       "platforms": "Windows, Mac, Android, Chrome OS, Raspberry Pi, iPad, browser",
       "source": "https://digitalsignage.com/_html/pricing.html",
-      "note": "Enterprise adds proof of play, white-label, kiosk/touch, IoT, POS; priced by the public calculator"
+      "note": "Enterprise adds proof of play, white-label, kiosk/touch, IoT, POS; priced by the public calculator",
+      "verified": "2026-10-04"
     },
     {
       "vendor": "Yodeck",
@@ -32,33 +33,35 @@
       "platforms": "See vendor",
       "source": "https://www.yodeck.com/pricing/",
       "note": "Prices raised Apr 1, 2026. Verified 2026-09-28: pricing page lists Free $0 single-screen licence; Yodeck docs (30-day free period, updated 2026-09-21) confirm the account continues on the Free Plan with basic features after the 30-day period. Sources: https://www.yodeck.com/pricing/ ; https://www.yodeck.com/docs/user-manual/free-period/",
-      "verified": "2026-09-28"
+      "verified": "2026-10-04"
     },
     {
       "vendor": "OptiSigns",
-      "free": "3 screens, with OptiSigns branding",
+      "free": "3 screens, with OptiSigns branding (logo on screen); free plan limited to OptiSigns, Windows, Linux and Raspberry Pi players",
       "entry": 10,
       "entryName": "Standard",
-      "top": "$30 Engage",
-      "unit": "per screen per month",
+      "top": "$45 Enterprise (minimum 25 screens; $40.50 billed annually); Engage $30, Pro Plus $15, Pro $12.50",
+      "unit": "per screen per month (about 10% less billed annually: Standard $9)",
       "onprem": "n/v",
       "hosting": "Cloud",
       "platforms": "See vendor",
       "source": "https://www.optisigns.com/pricing",
-      "note": "Limited storage on the free plan"
+      "note": "1GB storage and 25 basic apps on the free plan. Re-read 2026-10-04: the top published tier is Enterprise ($45, minimum 25 screens); earlier versions carried Engage ($30) as the top tier.",
+      "verified": "2026-10-04"
     },
     {
       "vendor": "ScreenCloud",
       "free": "None permanent (trial only)",
       "entry": 20,
-      "entryName": "Core",
-      "top": "Quote",
-      "unit": "from $20 per month",
+      "entryName": "Core (billed annually; $24 billed monthly)",
+      "top": "Enterprise: quote, annual only (Pro $30 billed annually, $36 monthly)",
+      "unit": "per screen per month, billed annually",
       "onprem": "n/v",
       "hosting": "Cloud",
       "platforms": "See vendor",
       "source": "https://screencloud.com/pricing",
-      "note": ""
+      "note": "Re-read 2026-10-04: $20 is the annual-billing rate; monthly billing is $24 (Core) and $36 (Pro). 14-day trial; free device only on annual plans.",
+      "verified": "2026-10-04"
     },
     {
       "vendor": "NoviSign",
@@ -66,26 +69,27 @@
       "entry": 14,
       "entryName": "Business (billed annually)",
       "top": "$25 Premium ($17 Business Plus), billed annually",
-      "unit": "per screen per month, billed annually (annual toggle 'Save 10%'; no monthly-billing figure published)",
+      "unit": "per screen per month, billed annually (page default toggle 'Annualy (Save 10%)'); monthly billing: Business $16, Business Plus $19, Premium $28",
       "onprem": "n/v",
       "hosting": "Cloud",
       "platforms": "See vendor",
       "source": "https://www.novisign.com/pricing/",
-      "note": "Verified 2026-09-28 from the vendor page: Business $14, Business Plus $17, Premium $25 per screen per month billed annually; earlier dataset figure of about $18 to $20 corrected. Price page blocks some automated fetches.",
-      "verified": "2026-09-28"
+      "note": "Verified 2026-09-28 from the vendor page: Business $14, Business Plus $17, Premium $25 per screen per month billed annually; earlier dataset figure of about $18 to $20 corrected. Price page blocks some automated fetches. Re-read 2026-10-04: monthly-billing figures are published in the page's billing toggle (Business $16, Business Plus $19, Premium $28); earlier versions said no monthly figure was published. Re-read 2026-10-04: monthly-billing figures are published in the page's billing toggle (Business $16, Business Plus $19, Premium $28); earlier versions said no monthly figure was published.",
+      "verified": "2026-10-04"
     },
     {
       "vendor": "Rise Vision",
-      "free": "n/v",
+      "free": "None (30-day money-back guarantee)",
       "entry": 11,
-      "entryName": "List (education focus)",
-      "top": "n/v",
-      "unit": "per display per month (about $11 list)",
+      "entryName": "Basic (K-12, higher ed, non-profit; business and government $12)",
+      "top": "K-12 Enterprise $164 per display per year, or $1,399 per school per year with unlimited displays (Advanced $138 per display per year)",
+      "unit": "per display per month billed monthly ($119 per display per year billed yearly)",
       "onprem": "n/v",
       "hosting": "Cloud",
       "platforms": "See vendor",
       "source": "https://www.risevision.com/pricing",
-      "note": "Education discounts advertised"
+      "note": "Re-read 2026-10-04: $11 per display per month is the K-12 / higher-ed / non-profit Basic rate for 1 to 10 displays; Business and Government Basic is $12 per month or $132 per year. Interactive display licence $1,200 per display per year is an add-on.",
+      "verified": "2026-10-04"
     },
     {
       "vendor": "PiSignage",
@@ -98,7 +102,8 @@
       "hosting": "Cloud (Raspberry Pi players only)",
       "platforms": "Raspberry Pi only",
       "source": "https://pisignage.com/pricing",
-      "note": "Verified 2026-09-19; over 50 screens is a sales quote; no Windows, LG webOS, Samsung Tizen native players (browser PWA only)"
+      "note": "Verified 2026-09-19; over 50 screens is a sales quote; no Windows, LG webOS, Samsung Tizen native players (browser PWA only)",
+      "verified": "2026-10-04"
     },
     {
       "vendor": "ChannelOS",
@@ -111,7 +116,8 @@
       "hosting": "Cloud",
       "platforms": "TV browser (Android TV, Google TV, LG webOS, Fire TV via Silk, any browser); Android TV APK from the vendor site",
       "source": "https://channelos.tv/pricing",
-      "note": "Verified 2026-09-19; Solo removes the banner; no vendor hardware"
+      "note": "Verified 2026-09-19; Solo removes the banner; no vendor hardware",
+      "verified": "2026-10-04"
     },
     {
       "vendor": "PosterBooking",
@@ -124,7 +130,8 @@
       "hosting": "Cloud",
       "platforms": "See vendor",
       "source": "https://posterbooking.com/pricing",
-      "note": "Verified 2026-09-19; until September 2026 the site advertised 10 free screens without a published paid rate"
+      "note": "Verified 2026-09-19; until September 2026 the site advertised 10 free screens without a published paid rate Re-read 2026-10-04: unchanged; the pricing page now shows a struck-through $69 beside Home Basic $52. Re-read 2026-10-04: unchanged; the pricing page now shows a struck-through $69 beside Home Basic $52.",
+      "verified": "2026-10-04"
     },
     {
       "vendor": "Xibo (open source)",
@@ -137,7 +144,8 @@
       "hosting": "Your own server",
       "platforms": "Windows/Linux players free; commercial players licensed",
       "source": "https://xibosignage.com/pricing",
-      "note": "Verified 2026-09-19; you install, host, update and secure the server when self-hosted; Windows and Linux players free"
+      "note": "Verified 2026-09-19; you install, host, update and secure the server when self-hosted; Windows and Linux players free",
+      "verified": "2026-10-04"
     },
     {
       "vendor": "Anthias (Screenly OSE)",
@@ -148,9 +156,10 @@
       "unit": "free",
       "onprem": "Yes (runs on each Pi)",
       "hosting": "Each Pi managed on its own",
-      "platforms": "Raspberry Pi",
+      "platforms": "Raspberry Pi and x86 PCs (arm64 single-board computers best effort)",
       "source": "https://github.com/Screenly/Anthias",
-      "note": "No central cloud dashboard"
+      "note": "No central cloud dashboard",
+      "verified": "2026-10-04"
     }
   ]
 }

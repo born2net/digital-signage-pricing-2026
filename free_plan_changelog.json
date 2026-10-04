@@ -4,8 +4,22 @@
   "license": "CC BY 4.0",
   "page": "https://digitalsignage.com/digital_signage/docs/guides/free-plan-changelog-2026/",
   "method": "Each entry records what a vendor's own pricing or plans page said on the date it was read. Entries are appended, never rewritten, so the log shows what was true on any date.",
-  "updated": "2026-09-28",
+  "updated": "2026-10-04",
   "entries": [
+    {
+      "date_observed": "2026-10-04",
+      "vendor": "OptiSigns",
+      "change": "Re-verified: 3 screens free with the OptiSigns logo on screen, 1 GB storage and 25 basic apps; the free plan is limited to OptiSigns, Windows, Linux and Raspberry Pi players. Paid tiers now run Standard $10 ($9 billed annually), Pro $12.50, Pro Plus $15, Engage $30 and Enterprise $45 (minimum 25 screens); our earlier entries gave Engage as the top tier.",
+      "free_plan_after": "3 screens with vendor branding, limited to OptiSigns, Windows, Linux and Raspberry Pi players",
+      "source": "https://www.optisigns.com/pricing"
+    },
+    {
+      "date_observed": "2026-10-04",
+      "vendor": "DigitalSignage.com, Yodeck, PiSignage, ChannelOS, PosterBooking, Xibo, Anthias, ScreenCloud, NoviSign",
+      "change": "Re-verified, unchanged: DigitalSignage.com 3 screens forever with no ads or watermark; Yodeck 1 screen with Basic features after the 30-day, 5-screen period; PiSignage 2 players; ChannelOS 1 screen with a banner; PosterBooking 10 screens for 3 months with a watermark; Xibo and Anthias free when self-hosted. ScreenCloud (14-day trial) and NoviSign (30-day trial) still have no permanent free tier.",
+      "free_plan_after": "unchanged",
+      "source": "https://digitalsignage.com/_html/digital_signage_pricing_2026.html"
+    },
     {
       "date_observed": "2026-09-28",
       "vendor": "Yodeck",
